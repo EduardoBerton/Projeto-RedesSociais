@@ -5,7 +5,7 @@ body {
     background-position: center center;
     background-size: cover ;
     background-attachment: fixed;
-    
+  
 }
 
 div {
@@ -21,7 +21,7 @@ div#celular {
 }
 div#conteudo {
     position: absolute;
-    width: 260px;
+    width: 265px;
     height: 470px;
     
 
@@ -40,11 +40,21 @@ nav {
     text-align: end;
     margin: auto;
 }
-nav > a > img {
+nav img {
     width: 60px;
     height: 60px;
+    margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.154);
     border-radius: 100px;
-    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.499);
+    box-sizing: border-box;
+    
+}
+nav img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.703);
+    transform: translate(-3px,-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.499);
+    transition: transform 0.5s, border 0.5s;
+    
 }
 
